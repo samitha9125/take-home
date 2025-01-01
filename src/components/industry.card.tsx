@@ -26,9 +26,9 @@ const IndustryCard: React.FC<IndustryCardProps> = ({ total, items, title }) => {
         <span>{i18n.totalJobs}</span>
       </div>
       <div className="mt-2 overflow-y-auto pr-4">
-        {items.map((item) => (
+        {items.map((item, index) => (
           <RowItem
-            key={item.uuid}
+            key={`${item.uuid}-${index}`}
             iconUrl={item.iconUrl}
             name={item.name}
             count={item.count}
