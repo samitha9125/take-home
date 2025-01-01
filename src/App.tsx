@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+
 import API from "./services/api.service";
 import { APIMethods } from "./constants/enums";
 import { groupCompaniesByIndustry } from "./utils";

@@ -1,7 +1,8 @@
 import i18n from "@i18n/en.json";
 import { CompanyItem } from "@src/constants/types";
-import RowItem from "./row.card";
 import { titleCase } from "@src/utils";
+
+import RowItem from "./row.card";
 
 interface IndustryCardProps {
   title: string;
