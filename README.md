@@ -21,19 +21,21 @@ This assessment is to write a React application that utilise JSON Server as a mo
 
 To run the application, follow the steps below:
 
-1. Open a new terminal and change the directory to the project root and run the following command to start the JSON Server:
+1. Clone this repository and run `yarn install` to install the dependencies.
+
+2. Open a new terminal and change the directory to the project root and run the following command to start the JSON Server:
 
 ```bash
 npx json-server data.json
 ```
 
-2. Open another terminal, change the directory to the project root and run the following command to start the React application:
+3. Open another terminal, change the directory to the project root and run the following command to start the React application:
 
 ```bash
 yarn dev
 ```
 
-3. Open your browser and navigate to `http://localhost:5173/` to view the application.
+4. Open your browser and navigate to `http://localhost:5173/` to view the application.
 
 ## Technical Specifications
 
