@@ -1,3 +1,5 @@
+import React from "react";
+
 import i18n from "@i18n/en.json";
 import { CompanyItem } from "@src/constants/types";
 import { titleCase } from "@src/utils";
@@ -37,4 +39,4 @@ const IndustryCard: React.FC<IndustryCardProps> = ({ total, items, title }) => {
   );
 };
 
-export default IndustryCard;
+export default React.memo(IndustryCard);

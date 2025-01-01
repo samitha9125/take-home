@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 
-import API from "./services/api.service";
-import { APIMethods } from "./constants/enums";
-import { groupCompaniesByIndustry } from "./utils";
-import { GroupedIndustry, PostsList } from "./constants/types";
-import IndustryCard from "./components/industry.card";
-import { Endpoints } from "./constants/endpoints";
+import API from "@src/services/api.service";
+import { APIMethods } from "@src/constants/enums";
+import { groupCompaniesByIndustry } from "@src/utils";
+import { GroupedIndustry, PostsList } from "@src/constants/types";
+import IndustryCard from "@src/components/industry.card";
+import { Endpoints } from "@src/constants/endpoints";
 
 const IndustriesList = () => {
   const [data, setData] = useState<GroupedIndustry[]>([]);

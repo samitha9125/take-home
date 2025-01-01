@@ -1,6 +1,6 @@
 import axios, { AxiosResponse } from "axios";
 
-import { APIMethods } from "../constants/enums";
+import { APIMethods } from "@src/constants/enums";
 
 const API = async <T>(method: APIMethods, url: string): Promise<T> => {
   try {
